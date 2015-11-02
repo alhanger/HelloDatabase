@@ -1,3 +1,6 @@
 2015-11-02 11:29:23 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO players VALUES ([*]'Bob"", 100, 10, true)"; SQL statement:
 INSERT INTO players VALUES ('Bob", 100, 10, true) [42000-190]
+2015-11-02 12:00:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "PLAYER" not found; SQL statement:
+INSERT INTO player VALUES (?, 100, 10, true) [42102-190]
